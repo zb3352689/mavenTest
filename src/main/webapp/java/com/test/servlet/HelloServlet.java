@@ -16,6 +16,8 @@ public class HelloServlet extends HttpServlet {
     @Override
     protected void doGet(HttpServletRequest req, HttpServletResponse resp) throws ServletException, IOException {
         System.out.println(123123);
+        int a = 12;
+        System.out.println(a);
         System.out.println("这是一个GET 方法");
     }
 
